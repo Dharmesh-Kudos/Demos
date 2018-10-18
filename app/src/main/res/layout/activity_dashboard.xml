@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="project.com.Dashboard">
+
+    <Button
+        android:id="@+id/btn_observer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OpenObderver"
+        android:text="Observer Demo" />
+
+    <Button
+        android:id="@+id/btn_realm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="OpenRealm"
+        android:text="Realm Demo" />
+
+    <Button
+        android:id="@+id/btn_eventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="OpenEventBus"
+        android:text="EventBus Demo" />
+
+    <Button
+        android:id="@+id/btn_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="OpenQr"
+        android:text="Qr Demo" />
+
+    <Button
+        android:id="@+id/btn_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="OpenToolbar"
+        android:text="Toolbar demo" />
+
+</LinearLayout>
